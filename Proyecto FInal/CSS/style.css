@@ -1,0 +1,243 @@
+/*General*/
+*{
+    margin: 0px;
+    padding: 0;
+}
+header{
+    background-color: #071433;
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    background-color: #071433;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    margin: 0px;
+}
+.caja{
+    margin-inline: 10px;
+    width: 60px;
+    padding: 10px;
+    background-color: #040C1F;
+    border-radius: 10px;
+}
+.contenedorf{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    margin: 0px;
+    justify-content: left;
+}
+.cajaf{
+    margin-inline: 10px;
+    width: 2350px;
+    padding: 10px;    
+}
+nav h1{
+    display: inline-block;
+}
+
+body{
+    background-color: #0E2966;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    background-color: #071433;
+    color: white;
+    padding: 20px;
+    padding-right: 0px;
+    padding-left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer h1{
+    display: inline-block;
+}
+footer ul{
+    width: 30%;
+    margin: 0;
+    display: inline-block;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-size: 75px;
+    margin: 20px;
+    margin-left: 0;
+}
+
+
+/*Inicio*/
+.inicio{
+    margin: 20px;
+    width: 50%;
+    display: inline-block;
+}
+
+.parrafo1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.parrafo{
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.messiImagen{
+    position:absolute;
+    left: 1250px;
+    bottom: 78px;
+    max-width: 380px;
+}
+
+/*Titulos*/
+.mainT{
+    margin: 20px;
+    width: 49%;
+    display: inline-block;
+}
+
+.parrafoT{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.parrafo2T{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.parrafo3T{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.parrafo4T{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.messititulos{
+    position:absolute;
+    left: 1200px;
+    bottom: 115px;
+    max-width: 900px;
+    border: #071433 solid;
+    border-radius: 10px;
+    border-width: 4px;
+}
+.listaT{
+    margin-left: 30px;
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+/*Records*/
+.mainR{
+    margin: 20px;
+    width: 97%;
+    display: inline-block;
+}
+.listaT li{
+    margin-top: 10px;
+}
+.footerR{
+    position: sticky;
+}
+
+/*Galeria*/
+.mainG{
+    margin: 20px;
+    width: 96%;
+    display: inline-block; 
+}
+.galeria{
+    display: inline-block;
+}
+.contenedorImg{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.primera{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.segunda{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorImg img{
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 400px;
+    margin: 10px;
+    margin-inline: 40px;
+    padding: 5px;
+    background-color: #040C1F;
+    border-radius: 30px;
+}
+.videos{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.vid{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+/*Contacto*/
+.mainC{
+    margin: 20px;
+    width: 96%;
+    display: inline-block; 
+}
+input{
+    margin: 3px;
+    margin-top: 20px;
+}
+.messiBeso{
+    width: 100%;
+    max-width: 700px;
+    max-height: 700px;
+    margin: 60px;
+    margin-left: 600px;
+    padding: 5px;
+    background-color: #040C1F;
+    border-radius: 30px;
+}
